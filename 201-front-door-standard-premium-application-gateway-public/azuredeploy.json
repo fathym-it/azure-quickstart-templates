@@ -51,9 +51,9 @@
   "functions": [],
   "variables": {
     "frontDoorProfileName": "MyFrontDoor",
-    "frontDoorOriginGroupName": "MyOriginGroup",
-    "frontDoorOriginName": "MyOrigin",
-    "frontDoorRouteName": "MyRoute",
+    "frontDoorOriginGroupName": "[format('{0}-origin-group', resourceGroup().id)]",
+    "frontDoorOriginName": "[format('{0}-origin', resourceGroup().id)]",
+    "frontDoorRouteName": "[format('{0}-route', resourceGroup().id)]",
     "frontDoorToApplicationGatewayProtocol": "HttpOnly"
   },
   "resources": [
