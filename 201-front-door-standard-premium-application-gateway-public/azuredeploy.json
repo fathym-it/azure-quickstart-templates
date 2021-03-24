@@ -50,7 +50,7 @@
   },
   "functions": [],
   "variables": {
-    "frontDoorProfileName": "[resourceGroup().id]",
+    "frontDoorProfileName": "[format('{0}-profile', resourceGroup().id)]",
     "frontDoorOriginGroupName": "[format('{0}-origin-group', resourceGroup().id)]",
     "frontDoorOriginName": "[format('{0}-origin', resourceGroup().id)]",
     "frontDoorRouteName": "[format('{0}-route', resourceGroup().id)]",
