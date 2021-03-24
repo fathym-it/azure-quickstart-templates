@@ -11,7 +11,7 @@
     },
     "appName": {
       "type": "string",
-      "defaultValue": "[format('myapp-{0}', uniqueString(resourceGroup().id))]",
+      "defaultValue": "[format('{0}-runtime', resourceGroup().Name)]",
       "metadata": {
         "description": "The name of the App Service application to create. This must be globally unique."
       }
@@ -32,7 +32,7 @@
     },
     "frontDoorEndpointName": {
       "type": "string",
-      "defaultValue": "[format('afd-{0}', uniqueString(resourceGroup().id))]",
+      "defaultValue": "[format('{0}-endpoint', resourceGroup().Name)]",
       "metadata": {
         "description": "The name of the Front Door endpoint to create. This must be globally unique."
       }
@@ -51,11 +51,11 @@
   },
   "functions": [],
   "variables": {
-    "appServicePlanName": "AppServicePlan",
-    "frontDoorProfileName": "MyFrontDoor",
-    "frontDoorOriginGroupName": "MyOriginGroup",
-    "frontDoorOriginName": "MyAppServiceOrigin",
-    "frontDoorRouteName": "MyRoute"
+    "appServicePlanName": "[resourceGroup().Name]",
+    "frontDoorProfileName": "[resourceGroup().Name]",
+    "frontDoorOriginGroupName": "[format('{0}-origin-group', resourceGroup().Name)]",
+    "frontDoorOriginName": "[format('{0}-origin', resourceGroup().Name)]",
+    "frontDoorRouteName": "[format('{0}-route', resourceGroup().Name)]"
   },
   "resources": [
     {
