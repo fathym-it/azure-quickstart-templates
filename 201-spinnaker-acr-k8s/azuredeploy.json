@@ -85,7 +85,7 @@
     "acrStorageAccountName": "[concat('registry', uniquestring(resourceGroup().id))]",
     "kubernetesDnsPrefix": "[concat('k8s', uniquestring(resourceGroup().id))]",
     "pipelinePort": "8000",
-    "_artifactsLocation": "https://raw.githubusercontent.com/Azure/azure-devops-utils/v0.12.0/",
+    "_artifactsLocation": "https://raw.githubusercontent.com/fathym-it/azure-devops-utils/v0.12.0/",
     "_extensionScript": "201-spinnaker-acr-k8s.sh",
     "_artifactsLocationSasToken": ""
   },

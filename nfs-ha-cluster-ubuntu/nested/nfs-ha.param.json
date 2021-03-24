@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "_artifactsLocation": {
-            "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/nfs-ha-cluster-ubuntu/"
+            "value": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/nfs-ha-cluster-ubuntu/"
         },
         "node0IPAddr": {
             "value": "10.0.0.111"

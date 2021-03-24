@@ -109,7 +109,7 @@
           "metadata": {
               "description": "The base URI where artifacts required by this template are located including a trailing '/'"
           },
-          "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/redis-high-availability/"
+          "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/redis-high-availability/"
       },
       "_artifactsLocationSasToken": {
           "type": "securestring",

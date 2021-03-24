@@ -53,7 +53,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/modules/machine-learning-workspace/0.9/azuredeploy.json",
+          "uri": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/modules/machine-learning-workspace/0.9/azuredeploy.json",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {

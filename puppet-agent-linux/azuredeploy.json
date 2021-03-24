@@ -100,7 +100,7 @@
     "vmName": "[concat(variables('scenarioPrefix'),'VM')]",
     "virtualNetworkName": "[concat(variables('scenarioPrefix'),'Vnet')]",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
-    "fileUris": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/puppet-agent-linux/install_puppet_agent.sh",
+    "fileUris": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/puppet-agent-linux/install_puppet_agent.sh",
     "commandToExecute": "[concat('./install_puppet_agent.sh ', parameters('pupmstrIP'), ' ', parameters('pupmstrFQDN'), ' ', parameters('pupmstrInternalFQDN'))]",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,

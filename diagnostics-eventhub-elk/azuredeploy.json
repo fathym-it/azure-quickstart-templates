@@ -170,7 +170,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/diagnostics-eventhub-elk",
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/diagnostics-eventhub-elk",
       "metadata": {
         "description": "Change this value to your repo name if deploying from a fork"
       }
@@ -206,7 +206,7 @@
     "virtualNetworkName": "elkvnet2",
     "subnetRef": "[concat(resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName')), '/subnets/', 'other')]",
     "esHost": "10.0.2.100",
-    "esTemplateBase": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/elasticsearch",
+    "esTemplateBase": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/elasticsearch",
     "esDeploymentName": "esDeploymentForDiagnosticsEventHubELK"
   },
   "resources": [

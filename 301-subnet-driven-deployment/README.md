@@ -55,7 +55,7 @@ The purpose of this template is to illustrate:
 
 ## Deploying the template
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F301-subnet-driven-deployment%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F301-subnet-driven-deployment%2Fazuredeploy.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2F301-subnet-driven-deployment%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2F301-subnet-driven-deployment%2Fazuredeploy.json)
     
 
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fgithub.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F301-subnet-driven-deployment%2Fazuredeploy.json" target="_blank">
@@ -67,7 +67,7 @@ The purpose of this template is to illustrate:
 <tr><th>Name</th><th>Description</th><th>DefaultValue</th></tr>
 <tr><td>adminPassword</td><td>Admin password</td><td></td></tr>
 <tr><td>adminUsername</td><td>Admin username</td><td></td></tr>
-<tr><td>assetLocation</td><td>The location of resources such as templates and DSC modules that the script is dependent</td><td>https://raw.githubusercontent.com/Azure/azure-quickstart-
+<tr><td>assetLocation</td><td>The location of resources such as templates and DSC modules that the script is dependent</td><td>https://raw.githubusercontent.com/fathym-it/azure-quickstart-
 templates/master/301-subnet-driven-deployment/</td></tr>
 <tr><td>dnsLabelPrefix</td><td>Unique public DNS label for the deployment. The fqdn will look something like &#39;dnsname.region.cloudapp.azure.com&#39;. Up to 62 chars, digits or dashes, lo
 wercase, should start with a letter: must conform to &#39;^[a-z][a-z0-9-]{1,61}[a-z0-9]$&#39;.</td><td></td></tr>

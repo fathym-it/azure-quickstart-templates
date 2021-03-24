@@ -97,7 +97,7 @@
 			"metadata": {
 				"description": "base URL of deployment resources (template,subtemplates,scripts)"
 			},
-			"defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/safekit-cluster-farm/"
+			"defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/safekit-cluster-farm/"
 		},
 		"_artifactsLocationSasToken": {
 			"type": "securestring",

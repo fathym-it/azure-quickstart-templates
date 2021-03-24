@@ -131,7 +131,7 @@
       "metadata": {
         "description": "Linked Templates base url"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mysql-ha-pxc-zones/"
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/mysql-ha-pxc-zones/"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",

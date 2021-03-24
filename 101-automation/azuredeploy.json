@@ -77,7 +77,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-automation/",
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/101-automation/",
       "metadata": {
         "description": "URI to artifacts location"
       }

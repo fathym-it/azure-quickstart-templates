@@ -51,7 +51,7 @@
           },
         "_omsViewsLocation": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/Azure/oms-log-analytics-firehose-nozzle/master/docs/omsview/",
+            "defaultValue": "https://raw.githubusercontent.com/fathym-it/oms-log-analytics-firehose-nozzle/master/docs/omsview/",
             "metadata": {
                 "description": "The base URI where OMS views required by this template are located"
             }
@@ -92,8 +92,8 @@
                 "CF%20-%20Etcd%20Operations.omsview"
             ],
             "system_metrics": {
-                "oms_agent": "https://raw.githubusercontent.com/Azure/oms-agent-for-linux-boshrelease/master/docs/omsview/Syslog%20and%20Perf.omsview",
-                "hm_forwarder": "https://raw.githubusercontent.com/Azure/oms-log-analytics-firehose-nozzle/master/docs/omsview/CF%20KPI%20-%20System%20Metrics.omsview"
+                "oms_agent": "https://raw.githubusercontent.com/fathym-it/oms-agent-for-linux-boshrelease/master/docs/omsview/Syslog%20and%20Perf.omsview",
+                "hm_forwarder": "https://raw.githubusercontent.com/fathym-it/oms-log-analytics-firehose-nozzle/master/docs/omsview/CF%20KPI%20-%20System%20Metrics.omsview"
             }
         }
     },

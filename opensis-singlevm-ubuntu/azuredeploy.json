@@ -92,7 +92,7 @@
     "virtualNetworkName": "[concat(parameters('namePrefix'),'VNet')]",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "installScriptName": "install_lamp_opensis.sh",
-    "installScriptUri": "[concat('https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/opensis-singlevm-ubuntu/', variables('installScriptName'))]",
+    "installScriptUri": "[concat('https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/opensis-singlevm-ubuntu/', variables('installScriptName'))]",
     "installCommand": "[concat('sh ', variables('installScriptName'), ' ', parameters('mySqlPassword'))]",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,

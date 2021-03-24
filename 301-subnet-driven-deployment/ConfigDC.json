@@ -38,7 +38,7 @@
       "metadata": {
         "description": "The location of resources such as templates and DSC modules that the script is dependent. Includes the last forward slash"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/301-subnet-driven-deployment/"
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/301-subnet-driven-deployment/"
     },
     "computerName": {
       "type": "string",

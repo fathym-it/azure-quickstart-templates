@@ -109,8 +109,8 @@
     "subnetDmzRef": "[concat(variables('vnetID'),'/subnets/',parameters('subnetDmzName'))]",
     "subnetMemcachedRef": "[concat(variables('vnetID'),'/subnets/',parameters('subnetMemcachedName'))]",
     "memcachedMachineNamePrefix": "memcached",
-    "scriptUrlInstallMemcached": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/memcached-multi-vm-ubuntu/install_memcached.sh",
-    "scriptUrlInstallApache": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/memcached-multi-vm-ubuntu/install_apache.sh"
+    "scriptUrlInstallMemcached": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/memcached-multi-vm-ubuntu/install_memcached.sh",
+    "scriptUrlInstallApache": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/memcached-multi-vm-ubuntu/install_apache.sh"
   },
   "resources": [
     {

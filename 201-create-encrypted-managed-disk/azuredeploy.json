@@ -53,7 +53,7 @@
         }
     },
     "variables": {
-        "createDiskUrl": "[concat('https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-create-encrypted-managed-disk/CreateEncryptedManagedDisk-',parameters('useExistingKek'),'.json')]"
+        "createDiskUrl": "[concat('https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/201-create-encrypted-managed-disk/CreateEncryptedManagedDisk-',parameters('useExistingKek'),'.json')]"
     },
     "resources": [  
         {

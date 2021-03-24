@@ -1,4 +1,4 @@
-![VeChain-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/blockchain/images/vechain.png)
+![VeChain-Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/blockchain/images/vechain.png)
 
 # VeChain Blockchain Thor Node on Ubuntu VM
 

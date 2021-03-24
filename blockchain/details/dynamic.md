@@ -1,4 +1,4 @@
-![Dynamic-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/blockchain/images/dynamic.png)
+![Dynamic-Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/blockchain/images/dynamic.png)
 
 # Dynamic Blockchain Node on Ubuntu VM
 

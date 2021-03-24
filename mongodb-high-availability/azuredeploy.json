@@ -144,7 +144,7 @@
     ,
     "_artifactsLocation": {
          "type": "string",
-         "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mongodb-high-availability/",
+         "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/mongodb-high-availability/",
          "metadata": {
             "description": "The base URI where artifacts required by this template are located"
          }
@@ -230,7 +230,7 @@
     },
     "vmStorageAccountContainerName": "vhd-mongodb",
     "vmStorageAccountDomain": ".blob.core.windows.net",
-    "sharedScriptUrl": "[concat('https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/', variables('osFamilySpec').osName, '/')]",
+    "sharedScriptUrl": "[concat('https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/', variables('osFamilySpec').osName, '/')]",
     "jumpboxTemplateEnabled": "jumpbox-resources.json",
     "jumpboxTemplateDisabled": "empty-resources.json",
     "arbiterTemplateEnabled": "arbiter-resources.json",

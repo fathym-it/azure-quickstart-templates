@@ -39,7 +39,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/elasticsearch-vmss/",
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/elasticsearch-vmss/",
       "metadata": {
         "description": "Change this value to your repo name if deploying from a fork"
       }
@@ -100,7 +100,7 @@
       "version": "latest"
     },
     "elasticSetupScriptUrl": "[uri(parameters('_artifactsLocation'), concat('install-elasticsearch.sh', parameters('_artifactsLocationSasToken')))]",
-    "diskSetupScriptUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh",
+    "diskSetupScriptUrl": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,
       "ssh": {

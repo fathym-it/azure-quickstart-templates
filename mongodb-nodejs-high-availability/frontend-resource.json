@@ -131,8 +131,8 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mongodb-nodejs-high-availability/Script/templateScript.sh",
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mongodb-nodejs-high-availability/nodeservice/app.js"
+            "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/mongodb-nodejs-high-availability/Script/templateScript.sh",
+            "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/mongodb-nodejs-high-availability/nodeservice/app.js"
           ],
           "commandToExecute": "sh templateScript.sh"
         }

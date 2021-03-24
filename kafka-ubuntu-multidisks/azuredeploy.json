@@ -61,7 +61,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/kafka-ubuntu-multidisks/",
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/kafka-ubuntu-multidisks/",
       "metadata": {
         "description": "The base URI where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
       }
@@ -92,7 +92,7 @@
     }
   },
   "variables": {
-    "templateBaseUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/kafka-ubuntu-multidisks/",
+    "templateBaseUrl": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/kafka-ubuntu-multidisks/",
     "sharedTemplateUrl": "[uri(parameters('_artifactsLocation'), concat('shared-resources.json', parameters('_artifactsLocationSasToken')))]",
     "tshirtSizeSmall": {
       "vmSize": "Standard_A1",
@@ -183,7 +183,7 @@
     "osSettings": {
       "scripts": [
         "[uri(parameters('_artifactsLocation'), concat('kafka-cluster-install.sh', parameters('_artifactsLocationSasToken')))]",
-        "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh"
+        "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh"
       ],
       "imageReference": {
         "publisher": "Canonical",

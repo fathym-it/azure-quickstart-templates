@@ -76,7 +76,7 @@
             "metadata": {
                 "description": "The base URI where artifacts required by this template are located including a trailing '/'"
             },
-            "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/alsid-syslog-proxy/"
+            "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/alsid-syslog-proxy/"
         },
         "_artifactsLocationSasToken": {
             "type": "securestring",

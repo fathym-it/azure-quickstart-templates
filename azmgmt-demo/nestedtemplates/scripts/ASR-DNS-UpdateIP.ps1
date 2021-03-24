@@ -50,7 +50,7 @@ workflow ASR-DNS-UpdateIP
     ) 
  
     $connectionName = "AzureRunAsConnection" 
-    $scriptpath = "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/asr-automation-recovery/scripts/UpdateDNS.ps1"
+    $scriptpath = "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/asr-automation-recovery/scripts/UpdateDNS.ps1"
 
     $Location = ""
     $TestDNSVMName = ""

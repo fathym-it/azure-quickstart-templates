@@ -275,7 +275,7 @@
                   "autoUpgradeMinorVersion": true,
                   "settings": {
                     "fileUris": [
-                      "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vmss-azure-files-linux/mountazurefiles.sh"
+                      "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/201-vmss-azure-files-linux/mountazurefiles.sh"
                     ],
                     "commandToExecute": "[concat('bash mountazurefiles.sh ', parameters('storageAccountName'), ' ', parameters('storageAccountKey'), ' ', parameters('shareName'), ' ', parameters('mountpointPath'), ' ', parameters('adminUsername'))]"
                   }

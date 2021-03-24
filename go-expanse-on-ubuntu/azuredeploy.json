@@ -211,7 +211,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/go-expanse-on-ubuntu/setup.sh"
+            "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/go-expanse-on-ubuntu/setup.sh"
           ],
           "commandToExecute": "[concat('sh setup.sh ', parameters('adminUsername'))]"
         }

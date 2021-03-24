@@ -11,8 +11,8 @@
 
 Version: [2018.6](./changelog.md "See change logs")
 
-[![Deploy to Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2F%2Fazuredeploy.json) 
-[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%oms-cloudfoundry-solution%2Fazuredeploy.json)
+[![Deploy to Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2F%2Fazuredeploy.json) 
+[![Visualize](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%oms-cloudfoundry-solution%2Fazuredeploy.json)
 
 ## Overview
 
@@ -41,7 +41,7 @@ Follow these instructions to deploy the template:
 
 1. Click "Deploy to Azure", this will send you to the Azure Portal with some default values for the template parameters.
 
-    [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fazuredeploy.json)
+    [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fazuredeploy.json)
 
 1. Fill the parameters.
 
@@ -80,7 +80,7 @@ Also notice that `OMS Log Analytics workspace` itself will not be modified durin
 
 To Customize view, you can refer to instructions [here](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-view-designer#import-an-existing-view).
 
-To upgrade views, you can delete corresponding solutions from azure portal and then click [here](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fnested%2FomsCustomViews.json) to redeploy nested view templates. __Make sure you know this will overwrite your customization made to corresponding views.__
+To upgrade views, you can delete corresponding solutions from azure portal and then click [here](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fnested%2FomsCustomViews.json) to redeploy nested view templates. __Make sure you know this will overwrite your customization made to corresponding views.__
 
 You can also import new views manually. Views included in this template are located in repository `Microsoft Azure Log Analytics Nozzle` [here](https://github.com/Azure/oms-log-analytics-firehose-nozzle/tree/master/docs/omsview). Please download views you wish to add and refer to document [here](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-view-designer#import-an-existing-view) on how to import them.
 
@@ -88,7 +88,7 @@ As you may noticed, you may export an existing view if you wish to preserve your
 
 ### Customize and Upgrade Alerts
 
-To upgrade alerts, you can click [here](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fnested%2FomsAlerts.json) to redeploy nested view templates. __Make sure you know this will overwrite your customization made to alerts and corresponding saved searches EVEN you changed its original display name.__
+To upgrade alerts, you can click [here](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fnested%2FomsAlerts.json) to redeploy nested view templates. __Make sure you know this will overwrite your customization made to alerts and corresponding saved searches EVEN you changed its original display name.__
 
 To add or customize alerts, please refer to document [here](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating) for instruction.
 
@@ -96,7 +96,7 @@ _Reference document for query language in OMS Log Analytics can be found [here](
 
 ### Customize and Upgrade Saved Searches
 
-To upgrade saved searches, you can click [here](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fnested%2FomsSavedSearches.json) to redeploy nested saved searches templates. __Make sure you know this will also overwrite your customization made to saved searches EVEN you haved changed its display name.__
+To upgrade saved searches, you can click [here](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fnested%2FomsSavedSearches.json) to redeploy nested saved searches templates. __Make sure you know this will also overwrite your customization made to saved searches EVEN you haved changed its display name.__
 
 To customize or create new saved searches, please login to `Microsoft Azure` portal, find and enter corresponding resource of `Log Analytics Workspace`. In page `Saved searches` under category `General`, you will find a complete list of saved searches of this workspace. Besides creating new saved searches, you can also execute, edit or delete existing searches here. _You can also save your current search in `Log Search` page of OMS portal by clicking `Save` button._
 

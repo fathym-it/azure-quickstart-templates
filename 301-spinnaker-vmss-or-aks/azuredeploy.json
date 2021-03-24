@@ -86,7 +86,7 @@
     "publicIPAddressName": "[concat(variables('scenarioPrefix'), 'PublicIP')]",
     "vmName": "[concat(variables('scenarioPrefix'), 'VM')]",
     "vmExtensionName": "[concat(variables('scenarioPrefix'), 'Init')]",
-    "_artifactsLocation": "https://raw.githubusercontent.com/Azure/azure-devops-utils/master/",
+    "_artifactsLocation": "https://raw.githubusercontent.com/fathym-it/azure-devops-utils/master/",
     "_extensionScript": "101-spinnaker-install-selection.sh",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,

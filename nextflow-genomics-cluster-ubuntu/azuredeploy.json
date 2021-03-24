@@ -186,7 +186,7 @@
       "metadata": {
         "description": "*Advanced* This should be left as default unless you are an advanced user. The folder in the artifacts location were shared scripts are stored."
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh"
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh"
     },
     "_artifactsNextflowFolder": {
       "type": "string",

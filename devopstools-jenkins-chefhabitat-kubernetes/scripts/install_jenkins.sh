@@ -36,9 +36,9 @@ function run_util_script() {
 }
 
 #defaults
-#artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/"
-artifacts_location="https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/devopstools-jenkins-chefhabitat-kubernetes"
-jenkins_version_location="https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/devopstools-jenkins-chefhabitat-kubernetes/scripts/jenkins-verified-ver"
+#artifacts_location="https://raw.githubusercontent.com/fathym-it/azure-devops-utils/master/"
+artifacts_location="https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/devopstools-jenkins-chefhabitat-kubernetes"
+jenkins_version_location="https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/devopstools-jenkins-chefhabitat-kubernetes/scripts/jenkins-verified-ver"
 azure_web_page_location="/usr/share/nginx/azure"
 jenkins_release_type="LTS"
 

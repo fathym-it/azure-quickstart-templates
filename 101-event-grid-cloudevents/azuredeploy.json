@@ -60,7 +60,7 @@
     "tags": {
       "projectUrl": "https://github.com/Azure/azure-quickstart-templates",
       "repositoryUrl": "https://github.com/Azure/azure-quickstart-templates",
-      "license": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/LICENSE"
+      "license": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/LICENSE"
     }
   },
   "resources": [

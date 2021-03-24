@@ -118,7 +118,7 @@
     "nicName": "[concat(parameters('customVmName'),'Nic')]",
     "publicIPAddressType": "Dynamic",
     "apiVersion": "2015-06-15",
-    "templatelink": "[concat('https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/101-vm-user-image-data-disks/', parameters('newOrExistingVnet'),'vnet.json')]"
+    "templatelink": "[concat('https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/101-vm-user-image-data-disks/', parameters('newOrExistingVnet'),'vnet.json')]"
   },
   "resources": [
     {

@@ -1,4 +1,4 @@
-#Script based on https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/visual-studio-dev-vm-chocolatey/scripts/SetupChocolatey.ps1
+#Script based on https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/visual-studio-dev-vm-chocolatey/scripts/SetupChocolatey.ps1
 param([Parameter(Mandatory=$true)][string]$chocoPackages)
 
 Write-Host "File packages URL: $linktopackages"

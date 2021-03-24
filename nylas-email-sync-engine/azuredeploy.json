@@ -296,7 +296,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/nylas-email-sync-engine/install.sh"
+            "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/nylas-email-sync-engine/install.sh"
           ],
           "commandToExecute": "[concat('sh install.sh ', parameters('adminUsername'))]"
         }

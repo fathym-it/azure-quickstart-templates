@@ -43,7 +43,7 @@ disk_format() {
 	yum install wget -y
 	for ((j=1;j<=3;j++))
 	do
-		wget https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh
+		wget https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh
 		if [[ -f /tmp/vm-disk-utils-0.1.sh ]]; then
 			bash /tmp/vm-disk-utils-0.1.sh -b /data/ -s
 			if [[ $? -eq 0 ]]; then

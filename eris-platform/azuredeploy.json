@@ -271,7 +271,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/eris-platform/setup.sh"
+            "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/eris-platform/setup.sh"
           ],
           "commandToExecute": "[concat('bash setup.sh ', parameters('adminUsername'), ' ', parameters('servicesToStart'), ' ', parameters('chainsToStart'))]"
         }

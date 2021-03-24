@@ -22,7 +22,7 @@ function throw_if_empty() {
 }
 
 #defaults
-artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/"
+artifacts_location="https://raw.githubusercontent.com/fathym-it/azure-devops-utils/master/"
 
 while [[ $# > 0 ]]
 do

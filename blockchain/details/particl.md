@@ -1,4 +1,4 @@
-![Particl-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/blockchain/images/particl.png)
+![Particl-Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/blockchain/images/particl.png)
 
 # Particl Public Blockchain Node
 

@@ -11,8 +11,8 @@
 
 This Microsoft Azure template deploys a single Expanse client with a private chain for development and testing.
 
-[![Deploy to Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json)
-[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json) 
+[![Deploy to Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json)
+[![Visualize](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json) 
 
 Once your deployment is complete you will have a expanse environment with:
 
@@ -20,7 +20,7 @@ Once your deployment is complete you will have a expanse environment with:
 
 2. A script to activate an Expanse node and begin interacting with the Expanse protocol.
 
-![Expanse-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/go-expanse-on-ubuntu/images/exp.png)
+![Expanse-Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/go-expanse-on-ubuntu/images/exp.png)
 
 # Template Parameters
 When you launch the installation of the cluster, you need to specify the following parameters:

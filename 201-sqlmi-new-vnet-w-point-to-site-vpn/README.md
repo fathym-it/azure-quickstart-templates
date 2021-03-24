@@ -8,7 +8,7 @@
 
 ![Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/201-sqlmi-new-vnet-w-point-to-site-vpn/BestPracticeResult.svg)
 ![Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/201-sqlmi-new-vnet-w-point-to-site-vpn/CredScanResult.svg)
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-sqlmi-new-vnet-w-point-to-site-vpn%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-sqlmi-new-vnet-w-point-to-site-vpn%2Fazuredeploy.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2F201-sqlmi-new-vnet-w-point-to-site-vpn%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2F201-sqlmi-new-vnet-w-point-to-site-vpn%2Fazuredeploy.json)
 
 This template allows you to create a [Azure SQL Database Managed Instances](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance) inside a new virtual network with Virtual network gateway that will be configured for point-to-site connections.
 
@@ -24,7 +24,7 @@ The easiast way to deploy this template is by running the following PowerShell s
 
 ```powershell
 
-$scriptUrlBase = 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-sqlmi-new-vnet-w-point-to-site-vpn'
+$scriptUrlBase = 'https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/201-sqlmi-new-vnet-w-point-to-site-vpn'
 
 $parameters = @{
     subscriptionId = '<subscriptionId>'

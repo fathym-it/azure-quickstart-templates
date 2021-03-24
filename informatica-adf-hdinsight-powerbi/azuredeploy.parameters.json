@@ -92,7 +92,7 @@
       "value": "5001_"
     },
     "baseUrl": {
-      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/informatica-adf-hdinsight-powerbi"
+      "value": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/informatica-adf-hdinsight-powerbi"
     }
   }
 }

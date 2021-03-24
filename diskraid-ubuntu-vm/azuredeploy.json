@@ -90,7 +90,7 @@
   "variables": {
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',parameters('virtualNetworkName'))]",
     "subnet1Ref": "[concat(variables('vnetID'),'/subnets/',parameters('subnet1Name'))]",
-    "scriptUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh",
+    "scriptUrl": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh",
     "securityGroupName": "diskraidnsg",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,

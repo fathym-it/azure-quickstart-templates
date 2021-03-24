@@ -56,7 +56,7 @@ credential_storage_id='myStorage'
 credential_storage_description='Microsoft Azure Storage	'
 aci_container_name='ACI-container'
 aci_container_image='cloudbees/jnlp-slave-with-java-build-tools'
-ms_artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/v0.28.1/"
+ms_artifacts_location="https://raw.githubusercontent.com/fathym-it/azure-devops-utils/v0.28.1/"
 ms_artifacts_location_sas_token=""
 
 while [[ $# > 0 ]]

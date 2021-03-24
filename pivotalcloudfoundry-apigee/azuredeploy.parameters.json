@@ -6,7 +6,7 @@
       "value": "westus"
     },
     "baseUri": {
-      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/pivotalcloudfoundry-apigee/"
+      "value": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/pivotalcloudfoundry-apigee/"
     },
     "adminUsername": {
       "value": "GEN-UNIQUE"

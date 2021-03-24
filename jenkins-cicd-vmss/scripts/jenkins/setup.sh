@@ -57,7 +57,7 @@ image="myPackerLinuxImage"
 job_short_name="BuildVM"
 credential_id="vmCred"
 credential_description="VM credential"
-ms_artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/v0.28.1/"
+ms_artifacts_location="https://raw.githubusercontent.com/fathym-it/azure-devops-utils/v0.28.1/"
 ms_artifacts_location_sas_token=""
 
 while [[ $# > 0 ]]

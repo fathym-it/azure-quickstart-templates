@@ -296,7 +296,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/elasticsearch/",
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/elasticsearch/",
       "metadata": {
         "description": "Change this value to your repo name if deploying from a fork"
       }
@@ -318,7 +318,7 @@
   },
   "variables": {
     "nestedTemplatesFolderName": "nestedtemplates",
-    "sharedScriptsLocation": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/",
+    "sharedScriptsLocation": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/ubuntu/",
     "storageAccountPrefix": "[concat(substring(uniqueString(resourceGroup().id, parameters('esClusterName')), 0, 6), substring(parameters('esClusterName'), 0, 3))]",
     "storageAccountNameAFS": "[concat(variables('storageAccountPrefix'), 'afs')]",
     "storageAccountNameShared": "[concat(variables('storageAccountPrefix'), 'sh')]",

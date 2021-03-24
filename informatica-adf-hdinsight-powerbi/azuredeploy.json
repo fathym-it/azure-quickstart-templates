@@ -238,7 +238,7 @@
     },
     "baseUrl": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/informatica-adf-hdinsight-powerbi",
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/informatica-adf-hdinsight-powerbi",
       "metadata": {
         "description": "Base URL for the reference templates and scripts"
       }

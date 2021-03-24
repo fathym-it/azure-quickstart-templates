@@ -28,7 +28,7 @@
         },
         "_artifactsLocation": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/asr-automation-recovery",
+            "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/asr-automation-recovery",
             "metadata": {
                 "description": "URI to artifacts location"
             }

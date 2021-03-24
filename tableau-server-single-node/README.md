@@ -8,7 +8,7 @@
 
 ![Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/tableau-server-single-node/BestPracticeResult.svg)
 ![Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/tableau-server-single-node/CredScanResult.svg)
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Ftableau-server-single-node%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Ftableau-server-single-node%2Fazuredeploy.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Ftableau-server-single-node%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Ftableau-server-single-node%2Fazuredeploy.json)
 
 
 
@@ -70,7 +70,7 @@ This template is freely available on Github - you can download and customize you
 
 This template deploys the following Azure resources.  For information on the cost of these resources please use Azure's <a href=https://azure.microsoft.com/en-us/pricing/calculator>pricing calculator</a>.  This template is designed to automate the Tableau Server deployment process.  However if you would like to step through the process manually you can use this reference architecture and resource details to create your own environment.
 
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/tableau-server-single-node/images/azure_single_node.png"/>
+<img src="https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/tableau-server-single-node/images/azure_single_node.png"/>
 
 + <a href=https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview>**Virtual Network**</a>: A virtual network located in a single Azure region that contains the deployed resources and allows them to communicate with each other.
 + <a href=https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview-arm>**Public IP Address**</a>: IPv4 address that persists separately from the VM and includes a registered DNS name for the machine it is attached to.

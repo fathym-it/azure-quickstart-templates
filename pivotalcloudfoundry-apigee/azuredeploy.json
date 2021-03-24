@@ -26,7 +26,7 @@
     },
     "baseUri": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/pivotalcloudfoundry-apigee/",
+      "defaultValue": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/pivotalcloudfoundry-apigee/",
       "metadata": {
         "description": "base uri for your git repo"
       }

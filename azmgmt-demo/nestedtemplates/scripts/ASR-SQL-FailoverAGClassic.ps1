@@ -40,7 +40,7 @@ workflow ASR-SQL-FailoverAGClassic
 
      InLineScript
      {
-      $scriptpath = "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/asr-automation-recovery/scripts/SQLAGFailover.ps1"
+      $scriptpath = "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/asr-automation-recovery/scripts/SQLAGFailover.ps1"
 
 
 

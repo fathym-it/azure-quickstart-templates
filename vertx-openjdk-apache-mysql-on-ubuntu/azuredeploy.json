@@ -241,7 +241,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/vertx-openjdk-apache-mysql-on-ubuntu/install.sh"
+            "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/vertx-openjdk-apache-mysql-on-ubuntu/install.sh"
           ],
           "commandToExecute": "sh install.sh"
         }

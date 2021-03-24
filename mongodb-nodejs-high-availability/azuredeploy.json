@@ -191,8 +191,8 @@
       "imageSKU": "14.04.5-LTS"
     },
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
-    "sharedScriptUrl": "[concat('https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/', variables('osFamilySpec').osName, '/')]",
-    "scriptUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mongodb-nodejs-high-availability/",
+    "sharedScriptUrl": "[concat('https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/shared_scripts/', variables('osFamilySpec').osName, '/')]",
+    "scriptUrl": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/mongodb-nodejs-high-availability/",
     "templateBaseUrl": "[variables('scriptUrl')]",
     "jumpboxTemplateEnabled": "jumpbox-resources.json",
     "jumpboxTemplateDisabled": "empty-resources.json",

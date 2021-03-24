@@ -9,7 +9,7 @@
 ![Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/puppet-enterprise-rhel-win/BestPracticeResult.svg)
 ![Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/puppet-enterprise-rhel-win/CredScanResult.svg)
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fpuppet-enterprise-rhel-win%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fpuppet-enterprise-rhel-win%2Fazuredeploy.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Fpuppet-enterprise-rhel-win%2Fazuredeploy.json)  [![Visualize](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ffathym-it%2Fazure-quickstart-templates%2Fmaster%2Fpuppet-enterprise-rhel-win%2Fazuredeploy.json)
 
 
  
@@ -49,7 +49,7 @@ This template will deploy:
 -	Multiple Windows Puppet Agent Virtual Machines (Windows Server 2016 Datacenter)
 -	Installation and configuration of Puppet Master Server and Agents
 
-![Deployment Solution Architecture](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/puppet-enterprise-rhel-win/images/puppet-enterprise-architecture.png?raw=true)
+![Deployment Solution Architecture](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/puppet-enterprise-rhel-win/images/puppet-enterprise-architecture.png?raw=true)
 
 ## Licenses and Costs 
 
@@ -71,7 +71,7 @@ Build your Puppet Enterprise environment on Azure in a few simple steps:
 - Access Puppet Console with the fqdn of master vm noted in above step by accessing https://fqdn
 - Login with username as ‘admin’ and password specified in parameters during deployment. 
 - You will now have access to working Puppet Master. 
-- Follow the post deployment configuration document [here](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/puppet-enterprise-rhel-win/images/puppet-post-deployment-guide.pdf) for further configuration. 
+- Follow the post deployment configuration document [here](https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/puppet-enterprise-rhel-win/images/puppet-post-deployment-guide.pdf) for further configuration. 
 
 ## Deployment Time
 The deployment takes about 20 minutes to complete. 

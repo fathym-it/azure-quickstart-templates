@@ -89,7 +89,7 @@
     }
   },
   "variables": {
-    "github": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sap-2-tier-marketplace-image/shared/",
+    "github": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/sap-2-tier-marketplace-image/shared/",
     "csExtension": {
       "Windows": {
         "script": "[concat(variables('github'), 'configureSAPVM.ps1')]",

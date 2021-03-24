@@ -51,7 +51,7 @@
     }
   },
   "variables": {
-    "scriptDownloadUri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/openedx-devstack-ubuntu/",
+    "scriptDownloadUri": "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/openedx-devstack-ubuntu/",
     "installScript": "install-openedx.sh",
     "installCommand": "[concat('bash -c ''nohup ./', variables('installScript'), ' ', variables('openedxVersion'), ' </dev/null &>/var/log/azure/openedx-install.log &''')]",
     "vmName": "jumpbox2",

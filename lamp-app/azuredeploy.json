@@ -261,7 +261,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/lamp-app/install_lamp.sh"
+            "https://raw.githubusercontent.com/fathym-it/azure-quickstart-templates/master/lamp-app/install_lamp.sh"
           ]
         },
         "protectedSettings": {
