@@ -25,7 +25,7 @@
     },
     "frontDoorEndpointName": {
       "type": "string",
-      "defaultValue": "[format('{0}-runtime', resourceGroup().id)]",
+      "defaultValue": "[format('afd-{0}', uniqueString(resourceGroup().id))]",
       "metadata": {
         "description": "The name of the Front Door endpoint to create. This must be globally unique."
       }
@@ -50,10 +50,10 @@
   },
   "functions": [],
   "variables": {
-    "frontDoorProfileName": "[format('{0}-profile', resourceGroup().id)]",
-    "frontDoorOriginGroupName": "[format('{0}-origin-group', resourceGroup().id)]",
-    "frontDoorOriginName": "[format('{0}-origin', resourceGroup().id)]",
-    "frontDoorRouteName": "[format('{0}-route', resourceGroup().id)]",
+    "frontDoorProfileName": "MyFrontDoor",
+    "frontDoorOriginGroupName": "MyOriginGroup",
+    "frontDoorOriginName": "MyOrigin",
+    "frontDoorRouteName": "MyRoute",
     "frontDoorToApplicationGatewayProtocol": "HttpOnly"
   },
   "resources": [
